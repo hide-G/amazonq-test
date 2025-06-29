@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マインスイーパー</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>マインスイーパー</h1>
+        
+        <div class="game-controls">
+            <div class="info">
+                <span id="mine-count">💣 10</span>
+                <button id="reset-button">😊</button>
+                <span id="timer">⏱️ 0</span>
+            </div>
+            
+            <div class="difficulty">
+                <button id="easy">初級</button>
+                <button id="medium">中級</button>
+                <button id="hard">上級</button>
+            </div>
+        </div>
+        
+        <div id="game-board"></div>
+        
+        <div class="instructions">
+            <h2>遊び方</h2>
+            <p>左クリック: マスを開く</p>
+            <p>右クリック: 旗を立てる（地雷の場所をマーク）</p>
+            <p>全ての地雷以外のマスを開くとクリアです！</p>
+        </div>
+    </div>
+    
+    <script src="js/minesweeper.js"></script>
+</body>
+</html>
