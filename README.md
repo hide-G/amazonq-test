@@ -57,7 +57,3 @@ git push origin main
 ## ライセンス (License)
 
 MIT
-
----
-
-注：このリポジトリには以前の Python 実装も含まれていますが、現在のマインスイーパーゲームは JavaScript で実装されています。
